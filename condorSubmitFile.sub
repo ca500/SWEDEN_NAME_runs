@@ -17,7 +17,7 @@
   +allow_ash13 = TRUE
 
 # Where the NAME input file lives and where transfers output to:
-initialDir = /home/ca500/big_space/SWEDEN_NAME/sweden_test/20170711_20170731_serial
+initialDir = /home/ca500/big_space/SWEDEN_NAME/sweden_test/20170711_20170731_serial_bigger
 
 transfer_input_files = .
 
