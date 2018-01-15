@@ -1,0 +1,821 @@
+ 
+ NAME III (version 7.1)
+ 
+ Compile time: Tue Aug  1 09:22:31 BST 2017
+ 
+ Compiler version: ifort (IFORT) 13.1.2 20130514 Copyright (C) 1985-2013 Intel
+ Corporation.  All rights reserved.
+ 
+ Run started at 18/12/2017 17:09:03.062 UTC
+ 
+ The log file for this run is daily_run_Sweden20170711_20170713Log.txt.
+ 
+ The restart files (if any) for this run have names that begin with
+ daily_run_Sweden20170711_20170713Restart.
+ 
+ Reading and checking input file(s)
+ Main input file used is daily_run_Sweden20170711_20170713.txt
+ Code compiled in parallel mode.
+ Number of Particle Threads          : 1
+ Number of Particle Update Threads   : 1
+ Number of Chemistry Threads         : 1
+ Number of Output Group Threads      : 1
+ Number of Output Process Threads    : 1
+ Parallel MetRead disabled
+ Input file(s) successfully read and checked
+ 
+ Case 1 started
+ 
+ Random seed array allocated
+ 
+ Updating met and flow modules at time 11/07/2017 08:00 UTC
+ NWP met data for 11/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707110600.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 11/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707110600.UMG_Mk10_M_L59PT2.pp
+ NWP met data for 11/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707110900.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 11/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707110900.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 11/07/2017 09:00 UTC
+ NWP met data for 11/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707110600.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 11/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707110600.UMG_Mk10_M_L59PT3.pp
+ NWP met data for 11/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707110900.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 11/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707110900.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 11/07/2017 09:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 11/07/2017 09:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 11/07/2017 09:00 UTC
+ 
+ Updating met and flow modules at time 11/07/2017 09:00 UTC
+ NWP met data for 11/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707111200.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 11/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707111200.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 11/07/2017 12:00 UTC
+ NWP met data for 11/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707111200.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 11/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707111200.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 11/07/2017 12:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 11/07/2017 12:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 11/07/2017 12:00 UTC
+ 
+ Updating met and flow modules at time 11/07/2017 12:00 UTC
+ NWP met data for 11/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707111500.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 11/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707111500.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 11/07/2017 15:00 UTC
+ NWP met data for 11/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707111500.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 11/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707111500.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 11/07/2017 15:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 11/07/2017 15:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 11/07/2017 15:00 UTC
+ 
+ Updating met and flow modules at time 11/07/2017 15:00 UTC
+ NWP met data for 11/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707111800.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 11/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707111800.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 11/07/2017 18:00 UTC
+ NWP met data for 11/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707111800.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 11/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707111800.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 11/07/2017 18:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 11/07/2017 18:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 11/07/2017 18:00 UTC
+ 
+ Updating met and flow modules at time 11/07/2017 18:00 UTC
+ NWP met data for 11/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707112100.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 11/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707112100.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 11/07/2017 21:00 UTC
+ NWP met data for 11/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707112100.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 11/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707112100.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 11/07/2017 21:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 11/07/2017 21:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 11/07/2017 21:00 UTC
+ 
+ Updating met and flow modules at time 11/07/2017 21:00 UTC
+ NWP met data for 12/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707120000.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 12/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707120000.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 12/07/2017 00:00 UTC
+ NWP met data for 12/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707120000.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 12/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707120000.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 00:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 00:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 00:00 UTC
+ 
+ Updating met and flow modules at time 12/07/2017 00:00 UTC
+ NWP met data for 12/07/2017 03:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707120300.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 12/07/2017 03:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707120300.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 12/07/2017 03:00 UTC
+ NWP met data for 12/07/2017 03:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707120300.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 12/07/2017 03:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707120300.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 03:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 03:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 03:00 UTC
+ 
+ Updating met and flow modules at time 12/07/2017 03:00 UTC
+ NWP met data for 12/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707120600.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 12/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707120600.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 12/07/2017 06:00 UTC
+ NWP met data for 12/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707120600.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 12/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707120600.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 06:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 06:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 06:00 UTC
+ 
+ Updating met and flow modules at time 12/07/2017 06:00 UTC
+ NWP met data for 12/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707120900.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 12/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707120900.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 12/07/2017 09:00 UTC
+ NWP met data for 12/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707120900.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 12/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707120900.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 09:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 09:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 09:00 UTC
+ 
+ Updating met and flow modules at time 12/07/2017 09:00 UTC
+ NWP met data for 12/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707121200.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 12/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707121200.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 12/07/2017 12:00 UTC
+ NWP met data for 12/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707121200.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 12/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707121200.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 12:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 12:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 12:00 UTC
+ 
+ Updating met and flow modules at time 12/07/2017 12:00 UTC
+ NWP met data for 12/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707121500.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 12/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707121500.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 12/07/2017 15:00 UTC
+ NWP met data for 12/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707121500.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 12/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707121500.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 15:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 15:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 15:00 UTC
+ 
+ Updating met and flow modules at time 12/07/2017 15:00 UTC
+ NWP met data for 12/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707121800.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 12/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707121800.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 12/07/2017 18:00 UTC
+ NWP met data for 12/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707121800.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 12/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707121800.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 18:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 18:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 18:00 UTC
+ 
+ Updating met and flow modules at time 12/07/2017 18:00 UTC
+ NWP met data for 12/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707122100.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 12/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707122100.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 12/07/2017 21:00 UTC
+ NWP met data for 12/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707122100.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 12/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707122100.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 21:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 21:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 21:00 UTC
+ 
+ Updating met and flow modules at time 12/07/2017 21:00 UTC
+ NWP met data for 13/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707130000.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 13/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707130000.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 13/07/2017 00:00 UTC
+ NWP met data for 13/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707130000.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 13/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707130000.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 00:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 00:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 00:00 UTC
+ 
+ Updating met and flow modules at time 13/07/2017 00:00 UTC
+ NWP met data for 13/07/2017 03:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707130300.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 13/07/2017 03:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707130300.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 13/07/2017 03:00 UTC
+ NWP met data for 13/07/2017 03:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707130300.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 13/07/2017 03:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707130300.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 03:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 03:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 03:00 UTC
+ 
+ Updating met and flow modules at time 13/07/2017 03:00 UTC
+ NWP met data for 13/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707130600.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 13/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707130600.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 13/07/2017 06:00 UTC
+ NWP met data for 13/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707130600.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 13/07/2017 06:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707130600.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 06:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 06:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 06:00 UTC
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ 
+ Updating met and flow modules at time 13/07/2017 06:00 UTC
+ NWP met data for 13/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707130900.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 13/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707130900.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 13/07/2017 09:00 UTC
+ NWP met data for 13/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707130900.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 13/07/2017 09:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707130900.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 09:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 09:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 09:00 UTC
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ 
+ Updating met and flow modules at time 13/07/2017 09:00 UTC
+ NWP met data for 13/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707131200.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 13/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707131200.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 13/07/2017 12:00 UTC
+ NWP met data for 13/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707131200.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 13/07/2017 12:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707131200.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 12:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 12:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 12:00 UTC
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ 
+ Updating met and flow modules at time 13/07/2017 12:00 UTC
+ NWP met data for 13/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707131500.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 13/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707131500.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 13/07/2017 15:00 UTC
+ NWP met data for 13/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707131500.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 13/07/2017 15:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707131500.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 15:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 15:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 15:00 UTC
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ 
+ Updating met and flow modules at time 13/07/2017 15:00 UTC
+ NWP met data for 13/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707131800.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 13/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707131800.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 13/07/2017 18:00 UTC
+ NWP met data for 13/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707131800.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 13/07/2017 18:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707131800.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 18:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 18:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 18:00 UTC
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ 
+ Updating met and flow modules at time 13/07/2017 18:00 UTC
+ NWP met data for 13/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707132100.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 13/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707132100.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 13/07/2017 21:00 UTC
+ NWP met data for 13/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707132100.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 13/07/2017 21:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707132100.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 21:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 21:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 21:00 UTC
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ 
+ Updating met and flow modules at time 13/07/2017 21:00 UTC
+ NWP met data for 14/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707140000.UMG_Mk10_I_L59PT2.pp
+ NWP met data for 14/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
+ 707110000/MO201707140000.UMG_Mk10_M_L59PT2.pp
+ Met module "NWP Met.UM Global PT2" now valid until 14/07/2017 00:00 UTC
+ NWP met data for 14/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707140000.UMG_Mk10_I_L59PT3.pp
+ NWP met data for 14/07/2017 00:00 UTC read from file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
+ 707110000/MO201707140000.UMG_Mk10_M_L59PT3.pp
+ Met module "NWP Met.UM Global PT3" now valid until 14/07/2017 00:00 UTC
+ Flow module "NWP Flow.UM Global PT2 Flow" now valid until 14/07/2017 00:00 UTC
+ Flow module "NWP Flow.UM Global PT3 Flow" now valid until 14/07/2017 00:00 UTC
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ ERROR: Particles and/or puffs are being lost due to lack of a valid flow
+ module.
+ 
+ Run completed with some errors (see log file) at 18/12/2017 19:28:32.658 UTC

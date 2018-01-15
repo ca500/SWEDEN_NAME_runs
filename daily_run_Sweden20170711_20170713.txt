@@ -1,0 +1,128 @@
+# ******************************************************************************
+#
+# Project: Sweden spore dispersal forecasting
+#
+# File:    NAME input file
+#
+# Author:  MM,LB,SM,FB (ADAQ, Met Office / Epidemiology and Modelling, Department of Plant Sciences, University of Cambridge)
+#
+# Date:    Latest update Aug 2016
+#
+# ******************************************************************************
+Main Options:
+Absolute or Relative Time?, Max # Field Output Groups, Fixed Met?, Flat Earth?,          Run Name,  Random Seed
+                  Absolute,                       300,         No,          No,  TestSweden20170711,  Fixed (Parallel)
+
+Restart File Options:
+# Cases Between Writes, Time Between Writes, Delete Old Files?, 
+                      ,                    ,                  , 
+
+Multiple Case Options:
+Dispersion Options Ensemble Size, Met Ensemble Size,
+                               1,                 1,
+
+OpenMP Options:
+Use OpenMP?, Threads, Parallel MetRead, Parallel MetProcess,
+        Yes,      1,               No,                  No,
+
+Output Options:
+Folder
+./
+
+Input Files:
+File names
+/data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Defns/MetDefnUMG_Mk10_L59PTpp.txt
+
+Horizontal Coordinate Systems:
+Name
+Lat-Long
+
+Vertical Coordinate Systems:
+Name
+m agl
+
+Horizontal Grids:
+Name,    H-Coord,  nX,   X Min,  X Max,          nY,    Y Min,    Y Max
+HGrid1, Lat-Long,  667,  -15,    40.411539526,   555,    30,      76.10705
+
+# overall 8 outputs, from T0 00:00,T1 00:00,...,T7 00:00
+Temporal Grids:
+Name,          nt,       dt,                 t0
+TGridDaily,     4,    24:00, 11/07/2017 00:00    
+
+Domains:
+Name,               H Unbounded?,  H-Coord, X Min, X Max, Y Min, Y Max, Z Unbounded?, Z-Coord,   Z Max, T Unbounded?,          Start Time,  End Time, Max Travel Time
+Dispersion Domain,           Yes,         ,      ,      ,      ,      ,           No,   m agl, 20000.0,           No, 11/07/2017 00:00:00,  infinity,        72:00:00
+
+Species:
+Name,           Category,       Half Life, UV Loss Rate, Deposition Velocity, A rain - BC, B rain - BC, A snow - BC, B snow - BC, A rain - IC, B rain - IC, A snow - IC, B snow - IC, Molecular Weight, Material Unit, Mean aerosol diameter
+DepositingTracer, Tracer, 39013.487438052,     0.00E+00,                    ,      8.4e-05,       0.79,       8e-05,        0.79,    0.000336,       0.305,     5.2e-05,        0.79,                0,             g,         26.4
+
+Species Uses:
+Species,         On Particles?, On Fields?, Advect Field?
+DepositingTracer,          Yes,         No,            No
+ 
+Sets of Dispersion Options:
+Max # Particles, Max # Full Particles, Max # Puffs, Max # Original Puffs, Skew Time, Velocity Memory Time, Mesoscale Velocity Memory Time, Inhomogeneous Time, DeltaOpt, Puff Time, Sync Time, Time of Fixed Met, Computational Domain, Puff Interval, Deep Convection?, Radioactive Decay?, Agent Decay?, Dry Deposition?, Wet Deposition?, Turbulence?, Mesoscale Motions?, Chemistry? 
+        20000000,                    2,           2,                    2,     00:00,                00:00,                         00:00,              00:00,        1,     00:00,  00:05:00,                  ,    Dispersion Domain,         00:30,              New,                Yes,           No,             Yes,             Yes,         Yes,                Yes,        No 
+    
+NWP Met Module Instances: 
+Name,          Min B L Depth, Max B L Depth, Use NWP BL Depth?,                                                         Restore Met Script, Delete Met?,      Met Folder,                                      Topography Folder, Met Definition Name
+UM Global PT2,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT2pp
+UM Global PT3,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT3pp
+
+NWP Flow Module Instances: 
+Name,               Met Module,           Met,                 Domain
+UM Global PT2 Flow,    NWP Met, UM Global PT2, UMG_Mk10_L59PT2pp Whole
+UM Global PT3 Flow,    NWP Met, UM Global PT3, UMG_Mk10_L59PT3pp Whole
+
+Flow Order: Update
+Flow Module, Flow
+NWP Flow,    UM Global PT2 Flow
+NWP Flow,    UM Global PT3 Flow
+
+Flow Order: Convert
+Flow Module, Flow
+NWP Flow,    UM Global PT2 Flow
+NWP Flow,    UM Global PT3 Flow
+
+Flow Order: Flow
+Flow Module, Flow
+NWP Flow,    UM Global PT2 Flow
+NWP Flow,    UM Global PT3 Flow
+
+Flow Order: Cloud
+Flow Module, Flow
+NWP Flow,    UM Global PT2 Flow
+NWP Flow,    UM Global PT3 Flow
+
+Flow Order: Rain
+Flow Module, Flow
+NWP Flow,    UM Global PT2 Flow
+NWP Flow,    UM Global PT3 Flow
+
+Flow Attributes:
+Name,    Flow Order
+Update,  Update
+Convert, Convert
+Flow,    Flow
+Cloud,   Cloud
+Rain,    Rain
+
+Locations: Sweden
+Name,                  H-Coord,   X,  Y
+Almunge,  Lat-Long, 17.9469, 59.8829
+
+#for release in Sweden we want: 09:00-15:00 UTC+01:00. Overall release of 1 Mio particles every day within a 6hour period of time, so 166666 / hr. Overall we are releasing from T-4,...T-1,T0,...,T+5.
+Sources:
+Name,        Source Groups,      Shape,  H-Coord,   Z-Coord,  Set of Locations,    Location,  Z,    dX,   dY,  dZ,  dH-Metres?,  dZ-Metres?,  Angle,   Source Strength,  Particle Density,  Particle Diameter,  Time Dependency,  Plume Rise?,Temperature,  Flow Velocity, # Particles,   Max Age,  Top Hat,    Start Time,     Stop Time
+Source Sw1_T0,  Sweden;   Source Sw_1,  Cuboid,  Lat-Long,     m agl,          Sweden, Almunge,  1,  20000.0,  20000.0,   0,         Yes,         Yes,    0.0,  DepositingTracer 1 g,            1000,               26.4,                 ,           No,       273.0,           0.0,   166666 / hr, 72:00:00,     Yes,      11/07/2017 08:00 UTC, 11/07/2017 14:00 UTC
+
+
+
+
+
+Output Requirements - Fields:
+Name,        Quantity, Decay Deposition?,     Species, Source,    Source Group, H-Grid, Z-Grid,   T-Grid, Z-Coord, BL Average, T Av or Int, Av Time, # Av Times, Sync?, Output Route, Across, Separate File, Output Format,  Output Group
+Deposition Rate Sw_1, Deposition Rate,      No, DepositingTracer,   ,    Source Sw_1, HGrid1,       , TGridDaily,   ,      ,     Int,   24:00,     288,    No,      D,  TZ,        T,       A,  depositionsourceSw1
+
