@@ -4,9 +4,9 @@
 #
 # File:    NAME input file
 #
-# Author:  MM,LB,SM,FB (ADAQ, Met Office / Epidemiology and Modelling, Department of Plant Sciences, University of Cambridge)
+# Author:  CA,MM,LB,SM,FB (ADAQ, Met Office / Epidemiology and Modelling, Department of Plant Sciences, University of Cambridge)
 #
-# Date:    Latest update Aug 2016
+# Date:    Latest update Jan 2018
 #
 # ******************************************************************************
 Main Options:
@@ -68,36 +68,43 @@ Max # Particles, Max # Full Particles, Max # Puffs, Max # Original Puffs, Skew T
     
 NWP Met Module Instances: 
 Name,          Min B L Depth, Max B L Depth, Use NWP BL Depth?,                                                         Restore Met Script, Delete Met?,      Met Folder,                                      Topography Folder, Met Definition Name
+UM Global PT1,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT1pp
 UM Global PT2,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT2pp
 UM Global PT3,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT3pp
 
 NWP Flow Module Instances: 
 Name,               Met Module,           Met,                 Domain
+UM Global PT1 Flow,    NWP Met, UM Global PT1, UMG_Mk10_L59PT1pp Whole
 UM Global PT2 Flow,    NWP Met, UM Global PT2, UMG_Mk10_L59PT2pp Whole
 UM Global PT3 Flow,    NWP Met, UM Global PT3, UMG_Mk10_L59PT3pp Whole
 
 Flow Order: Update
 Flow Module, Flow
+NWP Flow,    UM Global PT1 Flow
 NWP Flow,    UM Global PT2 Flow
 NWP Flow,    UM Global PT3 Flow
 
 Flow Order: Convert
 Flow Module, Flow
+NWP Flow,    UM Global PT1 Flow
 NWP Flow,    UM Global PT2 Flow
 NWP Flow,    UM Global PT3 Flow
 
 Flow Order: Flow
 Flow Module, Flow
+NWP Flow,    UM Global PT1 Flow
 NWP Flow,    UM Global PT2 Flow
 NWP Flow,    UM Global PT3 Flow
 
 Flow Order: Cloud
 Flow Module, Flow
+NWP Flow,    UM Global PT1 Flow
 NWP Flow,    UM Global PT2 Flow
 NWP Flow,    UM Global PT3 Flow
 
 Flow Order: Rain
 Flow Module, Flow
+NWP Flow,    UM Global PT1 Flow
 NWP Flow,    UM Global PT2 Flow
 NWP Flow,    UM Global PT3 Flow
 
