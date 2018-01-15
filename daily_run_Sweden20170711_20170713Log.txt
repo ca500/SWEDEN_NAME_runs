@@ -6,7 +6,7 @@
  Compiler version: ifort (IFORT) 13.1.2 20130514 Copyright (C) 1985-2013 Intel
  Corporation.  All rights reserved.
  
- Run started at 18/12/2017 17:09:03.062 UTC
+ Run started at 15/01/2018 13:35:40.921 UTC
  
  The log file for this run is daily_run_Sweden20170711_20170713Log.txt.
  
@@ -29,6 +29,11 @@
  Random seed array allocated
  
  Updating met and flow modules at time 11/07/2017 08:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707110600.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 11/07/2017 06:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707110600.UMG_Mk10_I_L59PT2.pp
@@ -55,10 +60,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707110900.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 11/07/2017 09:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 11/07/2017 09:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 11/07/2017 09:00 UTC
  
  Updating met and flow modules at time 11/07/2017 09:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707110900.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 11/07/2017 12:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707111200.UMG_Mk10_I_L59PT2.pp
@@ -73,10 +84,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707111200.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 11/07/2017 12:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 11/07/2017 12:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 11/07/2017 12:00 UTC
  
  Updating met and flow modules at time 11/07/2017 12:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707111200.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 11/07/2017 15:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707111500.UMG_Mk10_I_L59PT2.pp
@@ -91,10 +108,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707111500.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 11/07/2017 15:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 11/07/2017 15:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 11/07/2017 15:00 UTC
  
  Updating met and flow modules at time 11/07/2017 15:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707111500.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 11/07/2017 18:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707111800.UMG_Mk10_I_L59PT2.pp
@@ -109,10 +132,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707111800.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 11/07/2017 18:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 11/07/2017 18:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 11/07/2017 18:00 UTC
  
  Updating met and flow modules at time 11/07/2017 18:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707111800.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 11/07/2017 21:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707112100.UMG_Mk10_I_L59PT2.pp
@@ -127,10 +156,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707112100.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 11/07/2017 21:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 11/07/2017 21:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 11/07/2017 21:00 UTC
  
  Updating met and flow modules at time 11/07/2017 21:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707112100.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 12/07/2017 00:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707120000.UMG_Mk10_I_L59PT2.pp
@@ -145,10 +180,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707120000.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 00:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 00:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 00:00 UTC
  
  Updating met and flow modules at time 12/07/2017 00:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707120000.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 12/07/2017 03:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707120300.UMG_Mk10_I_L59PT2.pp
@@ -163,10 +204,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707120300.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 03:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 03:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 03:00 UTC
  
  Updating met and flow modules at time 12/07/2017 03:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707120300.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 12/07/2017 06:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707120600.UMG_Mk10_I_L59PT2.pp
@@ -181,10 +228,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707120600.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 06:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 06:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 06:00 UTC
  
  Updating met and flow modules at time 12/07/2017 06:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707120600.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 12/07/2017 09:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707120900.UMG_Mk10_I_L59PT2.pp
@@ -199,10 +252,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707120900.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 09:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 09:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 09:00 UTC
  
  Updating met and flow modules at time 12/07/2017 09:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707120900.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 12/07/2017 12:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707121200.UMG_Mk10_I_L59PT2.pp
@@ -217,10 +276,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707121200.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 12:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 12:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 12:00 UTC
  
  Updating met and flow modules at time 12/07/2017 12:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707121200.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 12/07/2017 15:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707121500.UMG_Mk10_I_L59PT2.pp
@@ -235,10 +300,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707121500.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 15:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 15:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 15:00 UTC
  
  Updating met and flow modules at time 12/07/2017 15:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707121500.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 12/07/2017 18:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707121800.UMG_Mk10_I_L59PT2.pp
@@ -253,10 +324,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707121800.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 18:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 18:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 18:00 UTC
  
  Updating met and flow modules at time 12/07/2017 18:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707121800.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 12/07/2017 21:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707122100.UMG_Mk10_I_L59PT2.pp
@@ -271,10 +348,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707122100.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 12/07/2017 21:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 12/07/2017 21:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 12/07/2017 21:00 UTC
  
  Updating met and flow modules at time 12/07/2017 21:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707122100.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 13/07/2017 00:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707130000.UMG_Mk10_I_L59PT2.pp
@@ -289,10 +372,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707130000.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 00:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 00:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 00:00 UTC
  
  Updating met and flow modules at time 13/07/2017 00:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707130000.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 13/07/2017 03:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707130300.UMG_Mk10_I_L59PT2.pp
@@ -307,10 +396,16 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707130300.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 03:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 03:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 03:00 UTC
  
  Updating met and flow modules at time 13/07/2017 03:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707130300.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 13/07/2017 06:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707130600.UMG_Mk10_I_L59PT2.pp
@@ -325,6 +420,7 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707130600.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 06:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 06:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 06:00 UTC
  ERROR: Particles and/or puffs are being lost due to lack of a valid flow
@@ -343,6 +439,11 @@
  module.
  
  Updating met and flow modules at time 13/07/2017 06:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707130600.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 13/07/2017 09:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707130900.UMG_Mk10_I_L59PT2.pp
@@ -357,6 +458,7 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707130900.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 09:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 09:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 09:00 UTC
  ERROR: Particles and/or puffs are being lost due to lack of a valid flow
@@ -409,6 +511,11 @@
  module.
  
  Updating met and flow modules at time 13/07/2017 09:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707130900.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 13/07/2017 12:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707131200.UMG_Mk10_I_L59PT2.pp
@@ -423,6 +530,7 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707131200.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 12:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 12:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 12:00 UTC
  ERROR: Particles and/or puffs are being lost due to lack of a valid flow
@@ -495,6 +603,11 @@
  module.
  
  Updating met and flow modules at time 13/07/2017 12:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707131200.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 13/07/2017 15:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707131500.UMG_Mk10_I_L59PT2.pp
@@ -509,6 +622,7 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707131500.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 15:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 15:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 15:00 UTC
  ERROR: Particles and/or puffs are being lost due to lack of a valid flow
@@ -585,6 +699,11 @@
  module.
  
  Updating met and flow modules at time 13/07/2017 15:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707131500.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 13/07/2017 18:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707131800.UMG_Mk10_I_L59PT2.pp
@@ -599,6 +718,7 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707131800.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 18:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 18:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 18:00 UTC
  ERROR: Particles and/or puffs are being lost due to lack of a valid flow
@@ -673,6 +793,11 @@
  module.
  
  Updating met and flow modules at time 13/07/2017 18:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707131800.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 13/07/2017 21:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707132100.UMG_Mk10_I_L59PT2.pp
@@ -687,6 +812,7 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707132100.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 13/07/2017 21:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 13/07/2017 21:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 13/07/2017 21:00 UTC
  ERROR: Particles and/or puffs are being lost due to lack of a valid flow
@@ -753,6 +879,11 @@
  module.
  
  Updating met and flow modules at time 13/07/2017 21:00 UTC
+ ERROR: Can't open met file
+ /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201
+ 707110000/MO201707132100.UMG_Mk10_I_L59PT1.pp
+ ERROR: in reading met data for met module NWP Met.UM Global PT1
+ Unable to update met module "NWP Met.UM Global PT1"
  NWP met data for 14/07/2017 00:00 UTC read from file
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201
  707110000/MO201707140000.UMG_Mk10_I_L59PT2.pp
@@ -767,6 +898,7 @@
  /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201
  707110000/MO201707140000.UMG_Mk10_M_L59PT3.pp
  Met module "NWP Met.UM Global PT3" now valid until 14/07/2017 00:00 UTC
+ Unable to update flow module "NWP Flow.UM Global PT1 Flow"
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 14/07/2017 00:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 14/07/2017 00:00 UTC
  ERROR: Particles and/or puffs are being lost due to lack of a valid flow
@@ -818,4 +950,4 @@
  ERROR: Particles and/or puffs are being lost due to lack of a valid flow
  module.
  
- Run completed with some errors (see log file) at 18/12/2017 19:28:32.658 UTC
+ Run completed with some errors (see log file) at 15/01/2018 15:42:51.882 UTC

@@ -68,9 +68,9 @@ Max # Particles, Max # Full Particles, Max # Puffs, Max # Original Puffs, Skew T
     
 NWP Met Module Instances: 
 Name,          Min B L Depth, Max B L Depth, Use NWP BL Depth?,                                                         Restore Met Script, Delete Met?,      Met Folder,                                      Topography Folder, Met Definition Name
-UM Global PT1,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT1pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT1pp
-UM Global PT2,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT2pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT2pp
-UM Global PT3,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/MetOfficeMetData/NewStructure/GLOBAL_PART/UMG_Mk10_L59PT3pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT3pp
+UM Global PT1,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/UMG_Mk10_L59PT1pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT1pp
+UM Global PT2,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/UMG_Mk10_L59PT2pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT2pp
+UM Global PT3,          80.0,       1000.0,               Yes,  ,          No, /disk2/incoming/UMG_Mk10_L59PT3pp_201707110000, /data/user_spaces/ca500/NAMEIII_v7_1_lotus/Resources/Topog,    UMG_Mk10_L59PT3pp
 
 NWP Flow Module Instances: 
 Name,               Met Module,           Met,                 Domain
