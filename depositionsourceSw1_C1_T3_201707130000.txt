@@ -1,6 +1,6 @@
  NAME III (version 7.1)                                          
  Run name:                   TestSweden20170711
- Run time:                   15/01/2018 13:35:40.921 UTC
+ Run time:                   15/01/2018 20:47:11.718 UTC
  Met data:                   NWP Flow.UM Global PT1 Flow; NWP Flow.UM Global PT2 Flow; NWP Flow.UM Global PT3 Flow
  Start of release:           11/07/2017 08:00 UTC
  End of release:             11/07/2017 14:00 UTC
