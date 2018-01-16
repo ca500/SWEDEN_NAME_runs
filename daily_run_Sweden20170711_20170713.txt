@@ -43,7 +43,7 @@ m agl
 
 Horizontal Grids:
 Name,    H-Coord,  nX,   X Min,  X Max,          nY,    Y Min,    Y Max
-HGrid1, Lat-Long,  667,  -15,    40.411539526,   555,    30,      76.10705
+HGrid1, Lat-Long,  1082,  -25,   65.022956148,   662,    30,      85.078740268
 
 # overall 8 outputs, from T0 00:00,T1 00:00,...,T7 00:00
 Temporal Grids:
