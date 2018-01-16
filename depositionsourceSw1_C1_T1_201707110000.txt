@@ -1,6 +1,6 @@
  NAME III (version 7.1)                                          
  Run name:                   TestSweden20170711
- Run time:                   15/01/2018 20:47:11.718 UTC
+ Run time:                   16/01/2018 10:28:34.894 UTC
  Met data:                   NWP Flow.UM Global PT1 Flow; NWP Flow.UM Global PT2 Flow; NWP Flow.UM Global PT3 Flow
  Start of release:           11/07/2017 08:00 UTC
  End of release:             11/07/2017 14:00 UTC
@@ -8,12 +8,12 @@
  Release location:           17.9469E   59.8829N
  Release height:             1.000m agl +/- 0.000m
  Run duration:               3day 0hr 0min
- X grid origin:                -15.00000    
+ X grid origin:                -25.00000    
  Y grid origin:                 30.00000    
- X grid size:                         667
- Y grid size:                         555
- X grid resolution:            8.3200514E-02
- Y grid resolution:            8.3225720E-02
+ X grid size:                        1082
+ Y grid size:                         662
+ X grid resolution:            8.3277479E-02
+ Y grid resolution:            8.3326392E-02
  Number of preliminary cols:            2
  Number of field cols:                  1
  

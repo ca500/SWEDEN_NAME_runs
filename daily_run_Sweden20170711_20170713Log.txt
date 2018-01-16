@@ -6,7 +6,7 @@
  Compiler version: ifort (IFORT) 13.1.2 20130514 Copyright (C) 1985-2013 Intel
  Corporation.  All rights reserved.
  
- Run started at 15/01/2018 20:47:11.718 UTC
+ Run started at 16/01/2018 10:28:34.894 UTC
  
  The log file for this run is daily_run_Sweden20170711_20170713Log.txt.
  
@@ -618,4 +618,4 @@
  Flow module "NWP Flow.UM Global PT2 Flow" now valid until 14/07/2017 00:00 UTC
  Flow module "NWP Flow.UM Global PT3 Flow" now valid until 14/07/2017 00:00 UTC
  
- Run completed successfully at 15/01/2018 22:57:30.367 UTC
+ Run completed successfully at 16/01/2018 12:40:07.599 UTC
